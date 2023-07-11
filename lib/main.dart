@@ -27,6 +27,6 @@ class _MainState extends State<Main> {
               elevation: 0, iconTheme: IconThemeData(color: Colors.black)),
         ),
         onGenerateRoute: (settings) => generateRoute(settings),
-        home: Auth());
+        home: AuthScreen());
   }
 }

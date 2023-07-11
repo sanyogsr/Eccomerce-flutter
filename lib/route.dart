@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 
 Route<dynamic> generateRoute(RouteSettings routesettings) {
   switch (routesettings.name) {
-    case Auth.routeName:
-      return MaterialPageRoute(builder: (_) => Auth());
+    case AuthScreen.routeName:
+      return MaterialPageRoute(builder: (_) => AuthScreen());
 
     default:
       return MaterialPageRoute(
